@@ -1,18 +1,5 @@
 <template>
-  <div>
-    <h1>this is the home page</h1>
+  <div class="font-merriweather">
+    <h1 class="text-3xl text-brown">this is the Home page</h1>
   </div>
 </template>
-
-<script>
-export default {
-  components: {},
-};
-</script>
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
-</style>
