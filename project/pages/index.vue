@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="font-merriweather">
         <h1 class="text-3xl">Anjani K. Sinha M.D</h1>
         <div>
             <button>Learn More</button>
