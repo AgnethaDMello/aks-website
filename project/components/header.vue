@@ -1,23 +1,31 @@
 <template>
-  <header class="header">
-    <div class="container">
-      <h1 class="text-center">My Nuxt.js App</h1>
-      <nav class="navbar">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+  <header class="bg-medium-gray text-white">
+    <div class="container flex justify-between items-center bg-medium-gray">
+      <!-- Logo and h1 section -->
+      <div class="flex items-center space-x-2 p-4 bg-dark-gray">
+        <img class="h-12 w-12" src="aks.png" alt="Anjani K. Sinha Logo" />
+        <h1 class="text-3xl">
+          <nuxt-link to="/about" class="text-white">Anjani K. Sinha</nuxt-link>
+        </h1>
+      </div>
+
+      <!-- Navigation section -->
+      <nav class="mt-4 p-4">
+        <ul class="flex space-x-6 bg-medium-gray">
+          <li>
+            <nuxt-link to="/home" class="text-black">Home</nuxt-link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+          <li>
+            <nuxt-link to="/about" class="text-black">About</nuxt-link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+          <li>
+            <nuxt-link to="/services" class="text-black">Services</nuxt-link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+          <li>
+            <nuxt-link to="/contact" class="text-black">Contact</nuxt-link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Schedule appointment</a>
+          <li>
+            <a class="text-black" href="#">Schedule appointment</a>
           </li>
         </ul>
       </nav>
@@ -30,31 +38,7 @@ export default {
   name: "Header",
 };
 </script>
-
 <style scoped>
-.header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.nav {
-  list-style: none;
-  display: flex;
-}
-
-.nav-item:not(:last-child) {
-  margin-right: 20px;
-}
-
-.nav-link {
-  color: #fff;
-  text-decoration: none;
+* {
 }
 </style>
