@@ -19,7 +19,7 @@
           <img
             :src="location.image"
             :alt="location.name"
-            class="w-9/12 object-cover"
+            class="w-9/12 object-cover h-64"
           />
         </div>
       </div>

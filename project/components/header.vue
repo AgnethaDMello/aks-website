@@ -1,12 +1,10 @@
 <template>
-  <header class="bg-medium-gray text-white m-0 w-full">
-    <div
-      class="container flex justify-between items-center bg-medium-gray m-0 p-0"
-    >
+  <header class="text-white bg-medium-gray">
+    <div class="flex justify-between items-center bg-medium-gray w-[100%]">
       <!-- Logo and h1 section -->
-      <div class="flex items-center space-x-2 p-4 bg-dark-gray">
-        <img class="h-12 w-12" src="aks.png" alt="Anjani K. Sinha Logo" />
-        <h1 class="text-3xl">
+      <div class="flex items-center space-x-3 p-4 bg-dark-gray">
+        <img class="h-10 w-10" src="aks.png" alt="Anjani K. Sinha Logo" />
+        <h1 class="text-2xl">
           <nuxt-link
             to="/about"
             class="text-yellow"
@@ -18,7 +16,7 @@
 
       <!-- Navigation section -->
       <nav class="">
-        <ul class="flex space-x-20 bg-medium-gray text-l justify-evenly">
+        <ul class="flex space-x-[12rem] mr-[40%] text-l justify-evenly">
           <li>
             <nuxt-link to="/home" class="text-black">Home</nuxt-link>
           </li>
@@ -30,9 +28,6 @@
           </li>
           <li>
             <nuxt-link to="/contact" class="text-black">Contact</nuxt-link>
-          </li>
-          <li>
-            <a class="text-black" href="#">Schedule appointment</a>
           </li>
         </ul>
       </nav>

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-yellow">
     <header class="text-black p-4">
-      <h1 class="text-4xl text-left ml-28 mt-10">Our Team</h1>
+      <h1 class="text-4xl text-left ml-[5%] mt-10">Our Team</h1>
     </header>
 
     <main class="container mx-auto py-8 pt-4">
