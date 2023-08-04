@@ -1,7 +1,7 @@
 <template>
   <div class="fixed inset-0 bg-medium-gray z-50 p-4">
     <!-- Close button -->
-    <button @click="close" class="absolute top-2 right-2">
+    <button @click="close" class="absolute top-6 right-4">
       <svg
         class="h-6 w-6"
         fill="none"
@@ -18,21 +18,21 @@
       </svg>
     </button>
     <!-- You can style the popup here as per your design -->
-    <ul class="flex flex-col space-y-6 p-4 text-l">
-      <li class="text-sm">
+    <ul class="flex flex-col space-y-12 p-8 text-3xl">
+      <li class="text-xl">
         <nuxt-link @click="close" to="/" class="text-black">Home</nuxt-link>
       </li>
-      <li class="text-sm">
+      <li class="text-xl">
         <nuxt-link @click="close" to="/about" class="text-black"
           >About</nuxt-link
         >
       </li>
-      <li class="text-sm">
+      <li class="text-xl">
         <nuxt-link @click="close" to="/services" class="text-black"
           >Services</nuxt-link
         >
       </li>
-      <li class="text-sm">
+      <li class="text-xl">
         <nuxt-link @click="close" to="/contact" class="text-black"
           >Contact</nuxt-link
         >
