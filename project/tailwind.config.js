@@ -21,6 +21,7 @@ module.exports = {
                 "medium-gray": "#C8C8C8",
                 "yellow": "#FFE8A0",
                 "yellow-btn": "#D9C179",
+                "light-yellow": "#F4EED8",
             },
             fontFamily: {
                 merriweather: ["Merriweather", "serif"]
