@@ -4,26 +4,26 @@
       <h1 class="text-4xl text-left ml-28 mt-10">Locations</h1>
     </header>
 
-    <main class="container mx-auto py-8 pt-4">
-      <div class="grid-cols-1 md:grid-cols-2 gap-8">
-        <div
-          v-for="location in locations"
-          :key="location.id"
-          class="relative group flex flex-row items-center m-6"
-        >
-          <div class="text-center md:text-left mt-4 mx-5">
-            <h2 class="text-xl font-bold">{{ location.name }}</h2>
-            <p>{{ location.address }}</p>
-          </div>
-
-          <img
-            :src="location.image"
-            :alt="location.name"
-            class="w-9/12 object-cover h-64"
-          />
-        </div>
+<main class=" container mx-auto pt-4">
+  <div class="grid-cols-1 md:grid-cols-2 gap-8">
+    <div
+      v-for="(location, index) in locations"
+      :key="location.id"
+      class="relative group flex flex-row items-center p-10"
+      :class="{'bg-light-gray': index % 2 === 0, 'bg-yellow': index % 2 !== 0}"
+    >
+      <div class="text-center md:text-left mt-4 mx-5">
+        <h2 class="text-xl font-bold">{{ location.name }}</h2>
+        <p>{{ location.address }}</p>
       </div>
-    </main>
+      <img
+        :src="location.image"
+        :alt="location.name"
+        class="w-9/12 object-cover h-64"
+      />
+    </div>
+  </div>
+</main>
   </div>
 </template>
 <script setup>
