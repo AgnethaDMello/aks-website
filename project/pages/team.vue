@@ -9,15 +9,15 @@
         <div
           v-for="doctor in doctors"
           :key="doctor.id"
-          class="relative group flex flex-row items-center m-6"
+          class="relative group md:flex flex-row items-center md:m-6 "
         >
           <img
             :src="doctor.image"
             :alt="doctor.name"
-            class="w-80 h-80 object-cover transition-opacity duration-300 group-hover:opacity-60"
+            class="w-80 h-80 object-cover transition-opacity duration-300 group-hover:opacity-60 mx-auto"
           />
           <div
-            class="absolute inset-0 bg-black opacity-0 w-80 group-hover:opacity-60 transition-opacity"
+            class=" mx-auto absolute inset-0 bg-black opacity-0 w-80 group-hover:opacity-60 transition-opacity"
           >
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-90 transition-opacity"
