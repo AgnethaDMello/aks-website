@@ -31,27 +31,66 @@
         </div>
         <div class="h-[60rem] bg-light-gray">
                 <h2 class="text-center text-6xl font-black pt-[10rem]">Services</h2>
-                <div class="grid grid-cols-4">
-                    <img src="shoulder-thumbnail.jpeg" alt="Image of shoulder pain" class="w-[25rem] h-[25rem] object-cover"/>
-                    <img src="knee-thumbnail.jpeg" alt="Image of knee pain" class="w-[25rem] h-[25rem] object-cover"/>
-                    <img src="ortho-thumbnail.jpeg" alt="Orthopedic doctor talking to patient" class="w-[25rem] h-[25rem] object-cover"/>
-                    <img src="surgery-thumbnail.jpeg" alt="Surgeon reaching out for tools" class="w-[25rem] h-[25rem] object-cover"/>
+                <div class="m-20 grid grid-cols-4">
+                    <div>
+                        <img src="shoulder-thumbnail.jpeg" alt="Image of shoulder pain" class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"/>
+                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]">Shoulder Pain</h3>
+                    </div>
+                    <div>
+                        <img src="knee-thumbnail.jpeg" alt="Image of knee pain" class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"/>
+                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]">Knee Pain</h3>
+                    </div>
+                    <div>
+                        <img src="ortho-thumbnail.jpeg" alt="Orthopedic doctor talking to patient" class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"/>
+                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]">Orthopedics</h3>
+                    </div>
+                    <div>
+                        <img src="surgery-thumbnail.jpeg" alt="Surgeon reaching out for tools" class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"/>
+                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]">Surgeries</h3>
+                    </div>
                 </div>
         </div>
         <div class="bg-gradient-to-b from-yellow to-dark-gray h-[70rem]">
-            <h2 class="text-center text-6xl font-black pt-[2rem]">Reviews</h2>
+            <h2 class="text-center text-6xl font-black pt-[4rem]">Reviews</h2>
+            <div class="justify-items-center grid grid-cols-2 gap-4">
+                <div v-for="review in reviews" :key="review.id" class="bg-dark-gray opacity-70 w-[80%] mt-20 text-white rounded-[2rem]">
+                   <img src="5stars.png" alt="5 stars" class="w-[21%] ml-16 mt-6 absolute"/>
+                   <img :src="review.pfp" alt="User profile picture" class="w-[6rem] h-[6rem] ml-[75%] mt-5 rounded-[100%]"/>
+                   <h3 class="text-xl text-right mr-[13%] mt-[1rem]">{{ review.name }}</h3>
+                   <p class="text-2xl text-center p-5 mt-5 mb-3">{{ review.testimonial }}</p>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
-<!-- Rectangle 5
+<script setup>
+import { ref } from "vue";
 
-box-sizing: border-box;
-
-position: absolute;
-width: 100px;
-height: 33px;
-
-background: rgba(217, 193, 121, 0.8);
-border: 2px solid #2C323D;
-box-shadow: -4px 4px 3px rgba(0, 0, 0, 0.25); -->
+const reviews = ref([
+{
+  id: 1,
+  pfp: "aks.png",
+  name: "joe mother",
+  testimonial: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
+},
+{
+  id: 2,
+  pfp: "aks.png",
+  name: "joe mother",
+  testimonial: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
+},
+{
+  id: 3,
+  pfp: "aks.png",
+  name: "joe mother",
+  testimonial: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
+},
+{
+  id: 4,
+  pfp: "aks.png",
+  name: "joe mother",
+  testimonial: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
+},
+])
+</script>
