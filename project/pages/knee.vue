@@ -7,7 +7,7 @@
         class="h-[30vh] w-[100vw] object-cover"
         style="object-position: center bottom"
       />
-      <h1 class="absolute top-1/4 text-white text-4xl ml-[5%] mt-10">
+      <h1 class="absolute top-1/4 text-white text-5xl ml-[5%] mt-10">
         Knee Services
       </h1>
     </div>

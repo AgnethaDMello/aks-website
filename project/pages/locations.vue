@@ -1,29 +1,39 @@
 <template>
   <div class="bg-yellow">
-    <header class="text-black p-4">
-      <h1 class="text-4xl text-left ml-28 mt-10">Locations</h1>
+    <header class="relative">
+      <img
+        src="hospital.jpeg"
+        alt="hospital header image"
+        class="h-[30vh] w-[100vw] object-cover object-center"
+      />
+      <h1 class="absolute top-1/4 text-white text-5xl ml-[5%] mt-10">
+        Locations
+      </h1>
     </header>
 
-<main class=" container mx-auto pt-4">
-  <div class="grid-cols-1 md:grid-cols-2 gap-8">
-    <div
-      v-for="(location, index) in locations"
-      :key="location.id"
-      class="relative group flex flex-row items-center p-10"
-      :class="{'bg-light-gray': index % 2 === 0, 'bg-yellow': index % 2 !== 0}"
-    >
-      <div class="text-center md:text-left mt-4 mx-5">
-        <h2 class="text-xl font-bold">{{ location.name }}</h2>
-        <p>{{ location.address }}</p>
+    <main class="mx-auto">
+      <div class="grid-cols-1 md:grid-cols-2 gap-8">
+        <div
+          v-for="(location, index) in locations"
+          :key="location.id"
+          class="relative group flex flex-row items-center p-10"
+          :class="{
+            'bg-yellow': index % 2 === 0,
+            'bg-light-gray': index % 2 !== 0,
+          }"
+        >
+          <div class="text-center md:text-left mt-4 mx-5">
+            <h2 class="text-xl font-bold">{{ location.name }}</h2>
+            <p>{{ location.address }}</p>
+          </div>
+          <img
+            :src="location.image"
+            :alt="location.name"
+            class="w-9/12 object-cover h-64"
+          />
+        </div>
       </div>
-      <img
-        :src="location.image"
-        :alt="location.name"
-        class="w-9/12 object-cover h-64"
-      />
-    </div>
-  </div>
-</main>
+    </main>
   </div>
 </template>
 <script setup>
