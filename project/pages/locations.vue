@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow">
+  <div class="bg-yellow overflow-y-hidden ">
     <header class="relative">
       <img
         src="hospital.jpeg"
@@ -22,14 +22,14 @@
             'bg-light-gray': index % 2 !== 0,
           }"
         >
-          <div class="text-center md:text-left mt-4 mx-5">
-            <h2 class="text-xl font-bold">{{ location.name }}</h2>
+          <div class="text-center md:text-left mt-4 md:mx-5">
+            <h2 class="text-xl font-bold pb-2">{{ location.name }}</h2>
             <p>{{ location.address }}</p>
           </div>
           <img
             :src="location.image"
             :alt="location.name"
-            class="w-9/12 object-cover h-64"
+            class="w-9/12 object-cover h-64 p-4"
           />
         </div>
       </div>

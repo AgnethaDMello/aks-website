@@ -17,8 +17,8 @@
       </div>
 
       <!-- Navigation section -->
-      <nav v-if="showMobileMenu" class="hidden md:block md:flex items-center">
-        <ul class="flex space-x-12 p-4 md:space-x-[8rem] text-l">
+      <nav v-if="showMobileMenu" class="hidden md:block md:flex items-center ">
+        <ul class="flex space-x-12 md:space-x-[4.5rem] text-l md:pl-8 lg:space-x-[11.5rem] xl:space-x-[18rem] ">
           <li class="text-sm">
             <nuxt-link to="/" class="text-black">Home</nuxt-link>
           </li>
@@ -29,7 +29,7 @@
             <nuxt-link to="/services" class="text-black">Services</nuxt-link>
           </li>
           <li class="text-sm">
-            <nuxt-link to="/contact" class="text-black">Contact</nuxt-link>
+            <nuxt-link to="/locations" class="text-black">Contact</nuxt-link>
           </li>
         </ul>
       </nav>
