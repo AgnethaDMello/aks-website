@@ -9,7 +9,7 @@
         <div
           v-for="doctor in doctors"
           :key="doctor.id"
-          class="relative group md:flex flex-row items-center md:m-6 "
+          class="relative group md:flex flex-row items-center md:m-6"
         >
           <img
             :src="doctor.image"
@@ -17,7 +17,7 @@
             class="w-80 h-80 object-cover transition-opacity duration-300 group-hover:opacity-60 mx-auto"
           />
           <div
-            class=" mx-auto absolute inset-0 bg-black opacity-0 w-80 group-hover:opacity-60 transition-opacity"
+            class="absolute inset-0 md:mt-[5.3rem] lg:mt-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity h-84 w-80 mx-auto md:mx-0"
           >
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-90 transition-opacity"
@@ -28,7 +28,7 @@
               </div>
             </div>
           </div>
-          <div class="text-center md:text-left mt-4 mx-5">
+          <div class="text-center md:text-left my-4 mx-5">
             <h2 class="text-xl font-bold">{{ doctor.name }}</h2>
             <p>{{ doctor.description }}</p>
           </div>
