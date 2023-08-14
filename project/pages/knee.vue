@@ -11,8 +11,10 @@
         Knee Services
       </h1>
     </div>
-    <div class="relative flex items-center justify-between mx-[5%] mt-[3rem]">
-      <div class="w-2/3 pr-8">
+    <div
+      class="relative md:flex items-center md:justify-between mx-[5%] mt-[3rem]"
+    >
+      <div class="md:w-2/3 md:pr-8 pb-4">
         <h2 class="text-yellow-txt text-2xl mb-[5%]">
           What Is The Anterior Cruciate Ligament (ACL)?
         </h2>
@@ -31,7 +33,7 @@
           pellentesque. Aenean et tortor at risus viverra.
         </p>
       </div>
-      <div class="w-1/3">
+      <div class="md:w-1/3">
         <img
           src="red knee.png"
           alt="pain on knee"

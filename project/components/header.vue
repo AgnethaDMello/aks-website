@@ -17,16 +17,68 @@
       </div>
 
       <!-- Navigation section -->
-      <nav v-if="showMobileMenu" class="hidden md:block md:flex items-center ">
-        <ul class="flex space-x-12 md:space-x-[4.5rem] text-l md:pl-8 lg:space-x-[11.5rem] xl:space-x-[18rem] ">
+      <nav v-if="showMobileMenu" class="hidden md:block md:flex items-center">
+        <ul
+          class="flex space-x-12 md:space-x-[4.5rem] text-l md:pl-8 lg:space-x-[11.5rem] xl:space-x-[18rem]"
+        >
           <li class="text-sm">
             <nuxt-link to="/" class="text-black">Home</nuxt-link>
           </li>
-          <li class="text-sm">
-            <nuxt-link to="/about" class="text-black">About</nuxt-link>
+          <li class="relative group text-sm">
+            <nuxt-link
+              to="/about"
+              class="text-black relative"
+              @mouseenter="showServicePopupAbout = true"
+              @mouseleave="hideServicePopupWithDelayAbout()"
+              >About</nuxt-link
+            >
+            <div
+              v-if="showServicePopupAbout"
+              class="absolute left-0 mt-2 bg-light-gray p-4 shadow-lg z-10 transform translate-x-[-30%] opacity-100 group-hover:opacity-100 transition-transform transition-opacity duration-1000"
+              style="transition-property: opacity"
+            >
+              <ul class="space-y-2 text-center">
+                <li>
+                  <nuxt-link
+                    to="/team"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Team</nuxt-link
+                  >
+                </li>
+                <li></li>
+              </ul>
+            </div>
           </li>
-          <li class="text-sm">
-            <nuxt-link to="/services" class="text-black">Services</nuxt-link>
+          <li class="relative group text-sm">
+            <nuxt-link
+              to="/services"
+              class="text-black relative"
+              @mouseenter="showServicePopup = true"
+              @mouseleave="hideServicePopupWithDelay()"
+              >Services</nuxt-link
+            >
+            <div
+              v-if="showServicePopup"
+              class="absolute left-0 mt-2 bg-light-gray p-4 shadow-lg z-10 transform translate-x-[-30%] opacity-100 group-hover:opacity-100 transition-transform transition-opacity duration-1000"
+              style="transition-property: opacity"
+            >
+              <ul class="space-y-2 text-center">
+                <li>
+                  <nuxt-link
+                    to="/knee"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Knee</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link
+                    to="/shoulder"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Shoulders</nuxt-link
+                  >
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="text-sm">
             <nuxt-link to="/locations" class="text-black">Contact</nuxt-link>
@@ -91,7 +143,23 @@ export default {
   data() {
     return {
       showMobileMenu: true,
+      showServicePopup: false,
+      showServicePopupAbout: false,
     };
+  },
+  methods: {
+    hideServicePopupWithDelay() {
+      // Delay hiding the popup for 1000 milliseconds (adjust as needed)
+      setTimeout(() => {
+        this.showServicePopup = false;
+      }, 900);
+    },
+    hideServicePopupWithDelayAbout() {
+      // Delay hiding the popup for 1000 milliseconds (adjust as needed)
+      setTimeout(() => {
+        this.showServicePopupAbout = false;
+      }, 900);
+    },
   },
 };
 </script>
