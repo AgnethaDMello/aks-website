@@ -2,7 +2,7 @@
   <footer class="bg-dark-gray text-white">
     <div class="flex justify-center">
       <div
-        class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-[15rem] md:py-16 py-8 md:flex"
+        class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-[10rem] lg:gap-[16rem] xl:gap-[24rem] md:gap-[15rem] md:py-16 py-8 md:flex"
       >
         <!-- Locations section -->
         <div class="flex flex-col justify-start items-start">

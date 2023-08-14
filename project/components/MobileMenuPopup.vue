@@ -27,13 +27,24 @@
           >About</nuxt-link
         >
       </li>
+      <li class="text-lg ml-[10%]">
+        <nuxt-link @click="close" to="/team" class="text-black">Team</nuxt-link>
+      </li>
       <li class="text-xl">
         <nuxt-link @click="close" to="/services" class="text-black"
           >Services</nuxt-link
         >
       </li>
+      <li class="text-lg ml-[10%]">
+        <nuxt-link @click="close" to="/knee" class="text-black">Knee</nuxt-link>
+      </li>
+      <li class="text-lg ml-[10%]">
+        <nuxt-link @click="close" to="/shoulder" class="text-black"
+          >Shoulder</nuxt-link
+        >
+      </li>
       <li class="text-xl">
-        <nuxt-link @click="close" to="/contact" class="text-black"
+        <nuxt-link @click="close" to="/locations" class="text-black"
           >Contact</nuxt-link
         >
       </li>

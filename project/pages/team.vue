@@ -17,7 +17,7 @@
             class="w-80 h-80 object-cover transition-opacity duration-300 group-hover:opacity-60 mx-auto"
           />
           <div
-            class="absolute inset-0 md:mt-[5.3rem] lg:mt-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity h-84 w-80 mx-auto md:mx-0"
+            class="absolute inset-0 md:mt-[5.3rem] lg:mt-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity h-80 w-80 mx-auto md:mx-0"
           >
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-90 transition-opacity"
