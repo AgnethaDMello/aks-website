@@ -1,12 +1,12 @@
 <template>
   <div class="font-merriweather">
     <div class="relative">
-      <div class="absolute ml-[38.5rem] mt-[18rem]">
+      <div class="absolute ml-[35%] mt-[18rem]">
         <svg width="1200">
           <rect
             x="10"
             y="10"
-            width="1150"
+            width="1050"
             height="80"
             fill="#404654"
             fill-opacity=".75"
@@ -32,43 +32,45 @@
           </button>
         </div>
         <h2
-          class="text-white text-5xl bg-dark-gray/75 mt-[43rem] ml-[42rem] w-[44rem] h-[3.5rem] text-center"
+          class="text-white text-4xl bg-dark-gray/75 mt-[43rem] ml-[42rem] w-[36%] pt-2 pb-2 text-center"
         >
           Ease your pain and your worries!
         </h2>
       </div>
-      <img
-        src="placeholder-doc-img.png"
-        alt="Doctor Anjani K. Sinha"
-        class="absolute mt-12 z-30 h-[55rem]"
-      />
-      <img
-        src="black_gold_triangle.png"
-        alt="Black and Gold Triangle"
-        class="absolute ml-[52.5%] mt-12 z-30 h-[55rem]"
-      />
-      <img
-        src="city-background-2.jpeg"
-        alt="city"
-        class="bg-auto opacity-[.55] z-10"
-      />
+      <div class="w-full">
+        <img
+            src="placeholder-doc-img.png"
+            alt="Doctor Anjani K. Sinha"
+            class="absolute bottom-0 z-30 h-[55rem]"
+        />
+        <img
+            src="black_gold_triangle.png"
+            alt="Black and Gold Triangle"
+            class="absolute bottom-0 right-0 z-30 h-[55rem]"
+        />
+        <img
+            src="city-background-2.jpeg"
+            alt="city"
+            class="object-cover w-full opacity-[.55] z-10"
+        />
+      </div>
     </div>
     <div class="h-[60rem] bg-yellow">
-      <div class="w-[40%]">
+      <div class="w-[40%] relative">
         <img
           src="R-shoulder.jpeg"
           alt="X-ray of right shoulder"
-          class="w-[25rem] h-[25rem] z-10 absolute mt-[7rem] ml-[7rem]"
+          class="w-[53%] h-[25rem] z-10 absolute top-[7rem] left-[7rem]"
         />
         <img
           src="knee-xray.jpeg"
           alt="X-ray of both knees"
-          class="w-[25rem] h-[25rem] z-20 absolute mt-[14rem] ml-[30rem]"
+          class="w-[53%] h-[25rem] z-20 absolute top-[14rem] left-[30rem]"
         />
         <img
           src="L-shoulder.jpeg"
           alt="X-ray of left shoulder"
-          class="w-[25rem] h-[25rem] z-10 absolute mt-[26rem] ml-[16rem]"
+          class="w-[53%] h-[25rem] z-10 absolute top-[26rem] left-[16rem]"
         />
       </div>
       <div class="w-[50%] float-right">
