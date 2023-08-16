@@ -77,6 +77,13 @@
                     >Shoulders</nuxt-link
                   >
                 </li>
+                <li>
+                  <nuxt-link
+                    to="/consultations"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Consultations</nuxt-link
+                  >
+                </li>
               </ul>
             </div>
           </li>

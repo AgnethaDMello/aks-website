@@ -60,7 +60,7 @@
           class="w-[90%] h-[20rem] object-cover"
         />
         <NuxtLink
-          to="/shoulder"
+          to="/consultations"
           class="lg:text-3xl text-sm m-7 m-7 bg-yellow-btn p-3 pl-6 pr-6"
           >Learn More</NuxtLink
         >

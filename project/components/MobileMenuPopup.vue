@@ -43,6 +43,11 @@
           >Shoulder</nuxt-link
         >
       </li>
+      <li class="text-lg ml-[10%]">
+        <nuxt-link @click="close" to="/consultations" class="text-black"
+          >Consultations</nuxt-link
+        >
+      </li>
       <li class="text-xl">
         <nuxt-link @click="close" to="/locations" class="text-black"
           >Contact</nuxt-link
