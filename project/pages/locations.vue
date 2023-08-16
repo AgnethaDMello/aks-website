@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow overflow-y-hidden">
+  <div class="bg-yellow overflow-y-hidden font-merriweather">
     <header class="relative">
       <img
         src="hospital.jpeg"

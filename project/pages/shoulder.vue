@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow">
+  <div class="bg-yellow font-merriweather">
     <div class="relative">
       <img
         src="throw.jpg"

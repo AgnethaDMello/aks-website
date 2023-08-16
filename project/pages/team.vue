@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow">
+  <div class="bg-yellow font-merriweather">
     <header class="text-black p-4">
       <h1 class="text-4xl text-left ml-[5%] mt-10">Our Team</h1>
     </header>
