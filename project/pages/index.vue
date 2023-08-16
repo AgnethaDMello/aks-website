@@ -39,19 +39,19 @@
       </div>
       <div class="w-full">
         <img
-            src="placeholder-doc-img.png"
-            alt="Doctor Anjani K. Sinha"
-            class="absolute bottom-0 z-30 h-[55rem]"
+          src="placeholder-doc-img.png"
+          alt="Doctor Anjani K. Sinha"
+          class="absolute bottom-0 z-30 h-[55rem]"
         />
         <img
-            src="black_gold_triangle.png"
-            alt="Black and Gold Triangle"
-            class="absolute bottom-0 right-0 z-30 h-[55rem]"
+          src="black_gold_triangle.png"
+          alt="Black and Gold Triangle"
+          class="absolute bottom-0 right-0 z-30 h-[55rem]"
         />
         <img
-            src="city-background-2.jpeg"
-            alt="city"
-            class="object-cover w-full opacity-[.55] z-10"
+          src="city-background-2.jpeg"
+          alt="city"
+          class="object-cover w-full opacity-[.55] z-10"
         />
       </div>
     </div>
@@ -88,8 +88,8 @@
         </p>
       </div>
     </div>
-    <div class="h-[60rem] bg-light-gray">
-      <h2 class="text-center text-6xl font-black pt-[10rem]">Services</h2>
+    <div class="h-auto bg-light-gray pb-20">
+      <h2 class="text-center text-6xl font-black pt-[10rem] pb-10">Services</h2>
       <div class="m-20 grid grid-cols-4">
         <div>
           <img
@@ -141,27 +141,31 @@
         </div>
       </div>
     </div>
-    <div class="bg-gradient-to-b from-yellow to-dark-gray h-[70rem]">
+    <div class="bg-gradient-to-b from-yellow to-dark-gray h-auto pb-20">
       <h2 class="text-center text-6xl font-black pt-[4rem]">Reviews</h2>
-      <div class="justify-items-center grid grid-cols-2 gap-4">
+      <div class="justify-items-center flex flex-col md:grid grid-cols-2 gap-4">
         <div
           v-for="review in reviews"
           :key="review.id"
-          class="bg-dark-gray opacity-70 w-[80%] mt-20 text-white rounded-[2rem]"
+          class="bg-dark-gray opacity-70 w-[80%] mt-20 text-white rounded-[2rem] relative mx-auto"
         >
           <img
             src="5stars.png"
             alt="5 stars"
-            class="w-[21%] ml-16 mt-6 absolute"
+            class="w-[50%] top-[10%] left-[8%] absolute"
           />
-          <img
-            :src="review.pfp"
-            alt="User profile picture"
-            class="w-[6rem] h-[6rem] ml-[75%] mt-5 rounded-[100%]"
-          />
-          <h3 class="text-xl text-right mr-[13%] mt-[1rem]">
-            {{ review.name }}
-          </h3>
+          <div
+            class="flex flex-col justify-center items-center relative ml-[65%] mt-[7%]"
+          >
+            <img
+              :src="review.pfp"
+              alt="User profile picture"
+              class="w-[35%] rounded-[100%]"
+            />
+            <h3 class="text-xl mt-[10%]">
+              {{ review.name }}
+            </h3>
+          </div>
           <p class="text-2xl text-center p-5 mt-5 mb-3">
             {{ review.testimonial }}
           </p>
