@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow overflow-y-hidden ">
+  <div class="bg-yellow overflow-y-hidden">
     <header class="relative">
       <img
         src="hospital.jpeg"
@@ -25,6 +25,7 @@
           <div class="text-center md:text-left mt-4 md:mx-5">
             <h2 class="text-xl font-bold pb-2">{{ location.name }}</h2>
             <p>{{ location.address }}</p>
+            <p>Call: {{ location.phone }}</p>
           </div>
           <img
             :src="location.image"

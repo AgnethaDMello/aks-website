@@ -34,10 +34,10 @@
             >
             <div
               v-if="showServicePopupAbout"
-              class="absolute left-0 mt-2 bg-light-gray p-4 shadow-lg z-10 transform translate-x-[-30%] opacity-100 group-hover:opacity-100 transition-transform transition-opacity duration-1000"
+              class="absolute left-0 mt-2 bg-medium-gray p-4 shadow-lg z-10 transform translate-x-[-30%] opacity-100 group-hover:opacity-100 transition-transform transition-opacity duration-1000"
               style="transition-property: opacity"
             >
-              <ul class="space-y-2 text-center">
+              <ul class="text-center">
                 <li>
                   <nuxt-link
                     to="/team"
@@ -59,7 +59,7 @@
             >
             <div
               v-if="showServicePopup"
-              class="absolute left-0 mt-2 bg-light-gray p-4 shadow-lg z-10 transform translate-x-[-30%] opacity-100 group-hover:opacity-100 transition-transform transition-opacity duration-1000"
+              class="absolute left-0 mt-2 bg-medium-gray p-4 shadow-lg z-10 transform translate-x-[-30%] opacity-100 group-hover:opacity-100 transition-transform transition-opacity duration-1000"
               style="transition-property: opacity"
             >
               <ul class="space-y-2 text-center">

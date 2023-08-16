@@ -17,7 +17,7 @@
             class="w-80 h-80 object-cover transition-opacity duration-300 group-hover:opacity-60 mx-auto"
           />
           <div
-            class="absolute inset-0 md:mt-[5.3rem] lg:mt-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity h-80 w-80 mx-auto md:mx-0"
+            class="absolute inset-0 md:mt-[5.4rem] lg:mt-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity h-80 w-80 mx-auto md:mx-0"
           >
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-90 transition-opacity"
@@ -79,7 +79,7 @@ const doctors = ref([
     image: "doctor2.jpg",
     phone: "523-355-2245",
     description:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasio hooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
+      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasio hooses to enjoy a pleasure that has no annoying consequences, or one who avoids a paino pursue pleasure rationally encounter co pursue pleasure rationally encounter co pursue pleasure rationally encounter co purs",
   },
   {
     id: 6,
