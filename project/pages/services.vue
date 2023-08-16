@@ -16,7 +16,7 @@
             <div class="bg-light-yellow w-[22%] h-[32rem] flex flex-col text-center items-center">
                 <h3 class="text-5xl w-[100%] bg-dark-gray mb-7 p-7 text-white">Consultations</h3>
                 <img src="ortho-services-thumbnail.jpeg" alt="" class="w-[90%] h-[20rem]">
-                <NuxtLink to="/shoulder" class="text-3xl m-7 bg-yellow-btn p-3 pl-6 pr-6">Learn More</NuxtLink>
+                <NuxtLink to="/consultations" class="text-3xl m-7 bg-yellow-btn p-3 pl-6 pr-6">Learn More</NuxtLink>
             </div>        
         </div>
     </div>

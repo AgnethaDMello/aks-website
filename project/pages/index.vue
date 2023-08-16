@@ -34,19 +34,19 @@
                 <div class="m-20 grid grid-cols-4">
                     <div>
                         <img src="shoulder-thumbnail.jpeg" alt="Image of shoulder pain" class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"/>
-                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]">Shoulder Pain</h3>
+                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 flex text-center items-center justify-center">Shoulder Pain</h3>
                     </div>
                     <div>
                         <img src="knee-thumbnail.jpeg" alt="Image of knee pain" class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"/>
-                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]">Knee Pain</h3>
+                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 flex text-center items-center justify-center">Knee Pain</h3>
                     </div>
                     <div>
                         <img src="ortho-thumbnail.jpeg" alt="Orthopedic doctor talking to patient" class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"/>
-                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]">Orthopedics</h3>
+                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 flex text-center items-center justify-center">Orthopedics</h3>
                     </div>
                     <div>
                         <img src="surgery-thumbnail.jpeg" alt="Surgeon reaching out for tools" class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"/>
-                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]">Surgeries</h3>
+                        <h3 class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 flex text-center items-center justify-center">Surgeries</h3>
                     </div>
                 </div>
         </div>

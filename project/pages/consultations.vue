@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>shoulder</h1>
+        <h1>Consultations</h1>
     </div>
 </template>
 
