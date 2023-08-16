@@ -1,7 +1,7 @@
 <template>
   <div class="font-merriweather">
     <div>
-      <h1 class="absolute text-7xl text-black ml-[8%] mt-[7%]">About Us</h1>
+      <h1 class="absolute text-black text-7xl ml-[8%] mt-[7%]">About Us</h1>
       <img src="about-us-main.jpeg" alt="Virtual Doctor Visual" class="w-[100%] h-[20rem] object-cover"/>
     </div>
     <div>
