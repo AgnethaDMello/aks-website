@@ -3,15 +3,18 @@
     <div class="relative">
       <img
         src="throw.jpg"
-        alt="throwing header image"
-        class="h-[30vh] w-[100vw] object-cover object-center"
+        alt="Running header image"
+        class="h-[30vh] w-[100vw] object-cover"
+        style="object-position: center bottom"
       />
       <h1 class="absolute top-1/4 text-white text-5xl ml-[5%] mt-10">
         Shoulder Services
       </h1>
     </div>
-    <div class="relative flex items-center justify-between mx-[5%] mt-[3rem]">
-      <div class="w-2/3 pr-8">
+    <div
+      class="relative md:flex items-center md:justify-between mx-[5%] mt-[3rem]"
+    >
+      <div class="md:w-2/3 md:pr-8 pb-4">
         <h2 class="text-yellow-txt text-2xl mb-[5%]">
           What Is The Anterior Cruciate Ligament (ACL)?
         </h2>
@@ -30,7 +33,7 @@
           pellentesque. Aenean et tortor at risus viverra.
         </p>
       </div>
-      <div class="w-1/3">
+      <div class="md:w-1/3">
         <img
           src="shoulder.png"
           alt="pain on shoulder"
@@ -57,6 +60,7 @@
         et tortor at risus viverra.
       </p>
     </div>
+
     <div class="max-w-full mx-auto bg-gradient-to-b from-yellow to-white mb-16">
       <h1 class="text-2xl font-semibold pb-[3rem] pt-4 mx-[5%]">
         Conditions We Treat
