@@ -15,7 +15,7 @@
       </div>
       <div class="absolute z-20 w-[100%]">
         <h1
-          class="text-8xl float-right text-white w-[70rem] h-[5.5rem] text-center mr-[9rem] mt-[16rem]"
+          class="text-9xl float-right text-white w-[70rem] h-[5.5rem] text-center mr-[9rem] mt-[15rem]"
         >
           Anjani K. Sinha M.D
         </h1>

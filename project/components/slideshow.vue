@@ -1,7 +1,10 @@
 <template>
   <div class="slideshow">
     <transition name="fade" mode="out-in">
-      <div :key="currentIndex" class="slide text-3xl text-center">
+      <div
+        :key="currentIndex"
+        class="slide m-12 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center"
+      >
         {{ currentText }}
       </div>
     </transition>
