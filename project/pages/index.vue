@@ -1,6 +1,6 @@
 <template>
   <div class="font-merriweather">
-    <div class="relative">
+    <!-- <div class="relative">
       <div class="absolute ml-[35%] mt-[18rem]">
         <svg width="1200">
           <rect
@@ -54,30 +54,13 @@
           class="object-cover w-full opacity-[.55] z-10"
         />
       </div>
-    </div>
-    <div class="h-[60rem] bg-yellow">
-      <div class="w-[40%] relative">
-        <img
-          src="R-shoulder.jpeg"
-          alt="X-ray of right shoulder"
-          class="w-[53%] h-[25rem] z-10 absolute top-[7rem] left-[7rem]"
-        />
-        <img
-          src="knee-xray.jpeg"
-          alt="X-ray of both knees"
-          class="w-[53%] h-[25rem] z-20 absolute top-[14rem] left-[30rem]"
-        />
-        <img
-          src="L-shoulder.jpeg"
-          alt="X-ray of left shoulder"
-          class="w-[53%] h-[25rem] z-10 absolute top-[26rem] left-[16rem]"
-        />
-      </div>
-      <div class="w-[50%] float-right">
-        <h2 class="text-center font-black text-6xl mt-[15rem]">
+    </div> -->
+    <div class="h-auto bg-yellow flex flex-col md:flex-row justify-around">
+      <div class="md:w-[50%] mt-10 h-auto flex flex-col justify-center items-center">
+        <h2 class="text-center font-black text-2xl sm:text-2xl md:text-4xl lg:text-6xl">
           Our Specialties
         </h2>
-        <p class="text-center text-3xl m-10">
+        <p class="text-center m-10 sm:text-lg md:text-xl lg:text-3xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -87,54 +70,71 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
+      <div class="md:w-[40%] h-full flex flex-col items-center justify-center pb-[8%] pl-[2%]">
+        <img
+          src="R-shoulder.jpeg"
+          alt="X-ray of right shoulder"
+          class="z-10 ml-[10%] md:mt-[15%] md:ml-[30%] -rotate-6 w-[33%] h-[8rem] md:w-[53%] md:h-[12rem] lg:h-[20rem]"
+        />
+        <img
+          src="knee-xray.jpeg"
+          alt="X-ray of both knees"
+          class="mr-[10%] md:ml-[3%] z-20 rotate-6 w-[33%] h-[8rem] md:w-[53%] md:h-[12rem] lg:h-[20rem]"
+        />
+        <img
+          src="L-shoulder.jpeg"
+          alt="X-ray of left shoulder"
+          class="z-10 ml-[10%] md:ml-[30%] -rotate-6 w-[33%] h-[8rem] md:w-[53%] md:h-[12rem] lg:h-[20rem]"
+        />
+      </div>
     </div>
-    <div class="h-auto bg-light-gray pb-20">
-      <h2 class="text-center text-6xl font-black pt-[10rem] pb-10">Services</h2>
-      <div class="m-20 grid grid-cols-4">
-        <div>
+    <div class="h-auto bg-light-gray pb-[5rem]">
+      <h2 class="text-center text-4xl lg:text-6xl font-black pt-[5rem] lg:pb-10">Services</h2>
+      <div class="m-20 grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1">
+        <div class="relative m-5 md:m-10 lg:mb-20 xl:m-0">
           <img
             src="shoulder-thumbnail.jpeg"
             alt="Image of shoulder pain"
-            class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"
+            class="w-full h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] absolute object-cover duration-100 hover:opacity-20"
           />
           <h3
-            class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]"
+            class="duration-100 h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] inset-0 text-2xl md:text-4xl xl:text-5xl bg-black text-white hover:opacity-100 text-center flex justify-center items-center"
           >
             Shoulder Pain
           </h3>
         </div>
-        <div>
+        <div class="relative m-5 mb-20 md:m-10 xl:m-0">
           <img
             src="knee-thumbnail.jpeg"
             alt="Image of knee pain"
-            class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"
+            class="w-full h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] absolute object-cover duration-100 hover:opacity-20"
           />
           <h3
-            class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]"
+            class="duration-100 sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] inset-0 w-full h-full text-2xl md:text-4xl xl:text-5xl bg-black text-white hover:opacity-100 text-center flex justify-center items-center mb-10"
           >
             Knee Pain
           </h3>
         </div>
-        <div>
+        <div class="relative m-5 mt-20 mb-20 md:m-10 xl:m-0">
           <img
             src="ortho-thumbnail.jpeg"
             alt="Orthopedic doctor talking to patient"
-            class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"
+            class="w-full h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] absolute object-cover duration-100 hover:opacity-20"
           />
           <h3
-            class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]"
+            class="duration-100 sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] inset-0 w-full h-full text-2xl md:text-4xl xl:text-5xl bg-black text-white hover:opacity-100 text-center flex justify-center items-center mb-10"
           >
             Orthopedics
           </h3>
         </div>
-        <div>
+        <div class="relative m-5 mt-20 mb-20 md:m-10 xl:m-0">
           <img
             src="surgery-thumbnail.jpeg"
             alt="Surgeon reaching out for tools"
-            class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"
+            class="w-full h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] absolute object-cover duration-100 hover:opacity-20"
           />
           <h3
-            class="duration-100 w-[27.2rem] h-[27.2rem] text-5xl bg-black text-white hover:opacity-100 text-center pt-[44%]"
+            class="duration-100 sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] inset-0 w-full h-full text-2xl md:text-4xl xl:text-5xl bg-black text-white hover:opacity-100 text-center flex justify-center items-center"
           >
             Surgeries
           </h3>
@@ -142,7 +142,7 @@
       </div>
     </div>
     <div class="bg-gradient-to-b from-yellow to-dark-gray h-auto pb-20">
-      <h2 class="text-center text-6xl font-black pt-[4rem]">Reviews</h2>
+      <h2 class="text-center text-4xl lg:text-6xl font-black pt-[4rem]">Reviews</h2>
       <div class="justify-items-center flex flex-col md:grid grid-cols-2 gap-4">
         <div
           v-for="review in reviews"
