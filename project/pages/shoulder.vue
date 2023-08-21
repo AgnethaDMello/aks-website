@@ -2,7 +2,7 @@
   <div class="bg-yellow font-merriweather">
     <div class="relative">
       <img
-        src="throw.jpg"
+        src="/assets/img/throw.jpg"
         alt="Running header image"
         class="h-[30vh] w-[100vw] object-cover"
         style="object-position: center bottom"
@@ -35,7 +35,7 @@
       </div>
       <div class="md:w-1/3">
         <img
-          src="shoulder.png"
+          src="/assets/img/shoulder.png"
           alt="pain on shoulder"
           class="w-full max-w-md mx-auto"
         />

@@ -2,7 +2,7 @@
   <div class="bg-yellow overflow-y-hidden font-merriweather">
     <header class="relative">
       <img
-        src="hospital.jpeg"
+        src="/assets/img/hospital.jpeg"
         alt="hospital header image"
         class="h-[30vh] w-[100vw] object-cover object-center"
       />

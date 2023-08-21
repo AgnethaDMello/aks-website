@@ -38,17 +38,17 @@
         </h2>
       </div>
       <img
-        src="placeholder-doc-img.png"
+        src="/assets/img/placeholder-doc-img.png"
         alt="Doctor Anjani K. Sinha"
         class="absolute mt-12 z-30 h-[55rem]"
       />
       <img
-        src="black_gold_triangle.png"
+        src="/assets/img/black_gold_triangle.png"
         alt="Black and Gold Triangle"
         class="absolute ml-[52.5%] mt-12 z-30 h-[55rem]"
       />
       <img
-        src="city-background-2.jpeg"
+        src="/assets/img/city-background-2.jpeg"
         alt="city"
         class="bg-auto opacity-[.55] z-10"
       />
@@ -56,17 +56,17 @@
     <div class="h-[60rem] bg-yellow">
       <div class="w-[40%]">
         <img
-          src="R-shoulder.jpeg"
+          src="/assets/img/R-shoulder.jpeg"
           alt="X-ray of right shoulder"
           class="w-[25rem] h-[25rem] z-10 absolute mt-[7rem] ml-[7rem]"
         />
         <img
-          src="knee-xray.jpeg"
+          src="/assets/img/knee-xray.jpeg"
           alt="X-ray of both knees"
           class="w-[25rem] h-[25rem] z-20 absolute mt-[14rem] ml-[30rem]"
         />
         <img
-          src="L-shoulder.jpeg"
+          src="/assets/img/L-shoulder.jpeg"
           alt="X-ray of left shoulder"
           class="w-[25rem] h-[25rem] z-10 absolute mt-[26rem] ml-[16rem]"
         />
@@ -91,7 +91,7 @@
       <div class="m-20 grid grid-cols-4">
         <div>
           <img
-            src="shoulder-thumbnail.jpeg"
+            src="/assets/img/shoulder-thumbnail.jpeg"
             alt="Image of shoulder pain"
             class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"
           />
@@ -103,7 +103,7 @@
         </div>
         <div>
           <img
-            src="knee-thumbnail.jpeg"
+            src="/assets/img/knee-thumbnail.jpeg"
             alt="Image of knee pain"
             class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"
           />
@@ -115,7 +115,7 @@
         </div>
         <div>
           <img
-            src="ortho-thumbnail.jpeg"
+            src="/assets/img/ortho-thumbnail.jpeg"
             alt="Orthopedic doctor talking to patient"
             class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"
           />
@@ -127,7 +127,7 @@
         </div>
         <div>
           <img
-            src="surgery-thumbnail.jpeg"
+            src="/assets/img/surgery-thumbnail.jpeg"
             alt="Surgeon reaching out for tools"
             class="w-[27.2rem] h-[27.2rem] absolute object-cover duration-100 hover:opacity-20"
           />
@@ -148,7 +148,7 @@
           class="bg-dark-gray opacity-70 w-[80%] mt-20 text-white rounded-[2rem]"
         >
           <img
-            src="5stars.png"
+            src="/assets/img/5stars.png"
             alt="5 stars"
             class="w-[21%] ml-16 mt-6 absolute"
           />

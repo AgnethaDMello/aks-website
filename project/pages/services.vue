@@ -1,6 +1,6 @@
 <template>
   <div
-    style="background-image: url('gray-bg.jpeg')"
+    style="background-image: url('/assets/img/gray-bg.jpeg')"
     class="bg-yellow h-max font-merriweather w-[100%] pt-10 pb-7 bg-local bg-cover bg-no-repeat"
   >
     <h2 class="lg:text-3xl text-lg text-center">A Directory to all</h2>
@@ -17,7 +17,7 @@
           Knee
         </h3>
         <img
-          src="knee-services-thumbnail.jpeg"
+          src="/assets/img/knee-services-thumbnail.jpeg"
           alt=""
           class="w-[90%] h-[20rem] object-cover"
         />
@@ -36,7 +36,7 @@
           Shoulder
         </h3>
         <img
-          src="shoulder-services-thumbnail.jpeg"
+          src="/assets/img/shoulder-services-thumbnail.jpeg"
           alt=""
           class="w-[90%] h-[20rem] object-cover"
         />
@@ -55,7 +55,7 @@
           Consultations
         </h3>
         <img
-          src="ortho-services-thumbnail.jpeg"
+          src="/assets/img/ortho-services-thumbnail.jpeg"
           alt=""
           class="w-[90%] h-[20rem] object-cover"
         />

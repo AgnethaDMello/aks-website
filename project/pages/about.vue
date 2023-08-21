@@ -2,7 +2,7 @@
   <div class="font-merriweather">
     <div class="relative">
       <img
-        src="about-us-main.jpeg"
+        src="/assets/img/about-us-main.jpeg "
         alt="Virtual Doctor Visual"
         class="h-[30vh] w-[100vw] object-cover"
         style="object-position: center bottom"
@@ -24,7 +24,7 @@
           </p>
         </div>
         <img
-          src="surgeons.jpeg"
+          src="/assets/img/surgeons.jpeg"
           alt="Surgeons conducting an operation."
           class="w-[30%] h-[40rem] my-20 mr-20 float-right object-cover"
         />
@@ -46,7 +46,7 @@
           </p>
         </div>
         <img
-          src="hospital-building.jpeg"
+          src="/assets/img/hospital-building.jpeg"
           alt="A hospital location."
           class="w-[30%] h-[40rem] mt-20 ml-20 float-left object-cover"
         />
