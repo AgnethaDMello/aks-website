@@ -4,7 +4,11 @@
       <!-- Logo and h1 section -->
       <div class="flex items-center space-x-3 p-3 bg-dark-gray">
         <nuxt-link to="/">
-          <img class="h-10 w-10" src="aks.png" alt="Anjani K. Sinha Logo" />
+          <img
+            class="h-10 w-10"
+            src="/assets/img/aks.png"
+            alt="Anjani K. Sinha Logo"
+          />
         </nuxt-link>
         <h1 class="md:text-2xl">
           <nuxt-link
@@ -75,6 +79,13 @@
                     to="/shoulder"
                     class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
                     >Shoulders</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link
+                    to="/consultations"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Consultations</nuxt-link
                   >
                 </li>
               </ul>

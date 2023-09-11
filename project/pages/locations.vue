@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-yellow overflow-y-hidden md:pt-10">
+  <div class="bg-yellow overflow-y-hidden font-merriweather md:pt-10 ">
     <header class="relative">
       <img
-        src="hospital.jpeg"
+        src="/assets/img/hospital.jpeg"
         alt="hospital header image"
         class="h-[30vh] w-[100vw] object-cover object-center"
       />

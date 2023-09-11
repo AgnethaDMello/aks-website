@@ -1,17 +1,20 @@
 <template>
-  <div class="bg-yellow md:pt-10">
+  <div class="bg-yellow font-merriweather md:pt-10">
     <div class="relative">
       <img
-        src="throw.jpg"
-        alt="throwing header image"
-        class="h-[30vh] w-[100vw] object-cover object-center"
+        src="/assets/img/throw.jpg"
+        alt="Running header image"
+        class="h-[30vh] w-[100vw] object-cover"
+        style="object-position: center bottom"
       />
       <h1 class="absolute top-1/4 text-white text-5xl ml-[5%] mt-10">
         Shoulder Services
       </h1>
     </div>
-    <div class="relative flex items-center justify-between mx-[5%] mt-[3rem]">
-      <div class="w-2/3 pr-8">
+    <div
+      class="relative md:flex items-center md:justify-between mx-[5%] mt-[3rem]"
+    >
+      <div class="md:w-2/3 md:pr-8 pb-4">
         <h2 class="text-yellow-txt text-2xl mb-[5%]">
           What Is The Labrum?
         </h2>
@@ -19,9 +22,9 @@
           The socket of the shoulder, or glenoid, is covered with a layer of cartilage called the labrum that cushions and deepens the socket to help stabilize the joint. Traumatic injuries and repetitive overhead shoulder movements may cause a tear in the labrum, leading to pain, limited motion, instability and weakness in the joint. There are three main types of labrum tears: SLAP tear — Here the tear is above the middle of the glenoid. SLAP stands for “superior labrum, anterior to posterior,” which means front to back. This is the common form of labrum tear in tennis, volleyball, and baseball players, and anyone who frequently uses overhead arm movements. Bankart tear — Damage here is in the lower half of the glenoid socket. This is more common in younger people who dislocate their shoulder. Posterior labrum tear — This type of injury occurs in the back of the shoulder joint. These are rare, occurring in only 5 to 10 percent of all shoulder injuries.
         </p>
       </div>
-      <div class="w-1/3">
+      <div class="md:w-1/3">
         <img
-          src="shoulder.png"
+          src="/assets/img/shoulder.png"
           alt="pain on shoulder"
           class="w-full max-w-md mx-auto"
         />
@@ -35,6 +38,7 @@
         Labral repair surgery trims the damaged portion of the labrum in the shoulder and if necessary, secures it with staples, anchors or sutures. This outpatient procedure is usually performed through arthroscopy, which allows the doctor to view the tear through a small camera and insert the specialized tools through tiny incisions. Patients can benefit from less tissue damage, shorter recovery times and less scarring with arthroscopic techniques. However, larger tears may require an open procedure. Once anesthesia has been administered, the surgeon will make the incisions in the shoulder area. Upon obtaining a visualization of the labrum, the injury can be better evaluated. The torn area will be removed and all necessary repairs are made. If a separation from the tendon has occurred as well, it may require the use of sutures and anchors to achieve fixation by drilling tiny holes in the glenoid bone in which the anchors are then embedded. Sutures are used to connect the labrum to the anchors, maintaining the correct positioning of the labrum and preventing the labrum from detaching again.
       </p>
     </div>
+
     <div class="max-w-full mx-auto bg-gradient-to-b from-yellow to-white mb-16">
       <h1 class="text-2xl font-semibold pb-[3rem] pt-4 mx-[5%]">
         Conditions We Treat

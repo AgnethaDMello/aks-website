@@ -37,8 +37,12 @@
             <li class="pb-1">
               <nuxt-link to="/services" class="text-white">Services</nuxt-link>
             </li>
-            <li class="pb-1"><a href="#">Contact</a></li>
-            <li class="pb-1"><a href="#">Our team</a></li>
+            <li class="pb-1">
+              <nuxt-link to="/locations" class="text-white">Contact</nuxt-link>
+            </li>
+            <li class="pb-1">
+              <nuxt-link to="/team" class="text-white">Team</nuxt-link>
+            </li>
           </ul>
         </div>
       </div>

@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-yellow md:pt-10">
+  <div class="bg-yellow font-merriweather md:pt-10">
     <div class="relative">
       <img
-        src="running.jpeg"
+        src="/assets/img/running.jpeg"
         alt="Running header image"
         class="h-[30vh] w-[100vw] object-cover"
         style="object-position: center bottom"
@@ -24,7 +24,7 @@
       </div>
       <div class="md:w-1/3">
         <img
-          src="red knee.png"
+          src="/assets/img/redknee.png"
           alt="pain on knee"
           class="w-full max-w-md mx-auto"
         />

@@ -67,17 +67,17 @@
       </div>
       <div class="md:w-[40%] h-full flex flex-col items-center justify-center pb-[8%] pl-[2%]">
         <img
-          src="R-shoulder.jpeg"
+          src="/assets/img/R-shoulder.jpeg"
           alt="X-ray of right shoulder"
           class="z-10 ml-[10%] md:mt-[15%] md:ml-[30%] -rotate-6 w-[33%] h-[8rem] md:w-[53%] md:h-[12rem] lg:h-[20rem]"
         />
         <img
-          src="knee-xray.jpeg"
+          src="/assets/img/knee-xray.jpeg"
           alt="X-ray of both knees"
           class="mr-[10%] md:ml-[3%] z-20 rotate-6 w-[33%] h-[8rem] md:w-[53%] md:h-[12rem] lg:h-[20rem]"
         />
         <img
-          src="L-shoulder.jpeg"
+          src="/assets/img/L-shoulder.jpeg"
           alt="X-ray of left shoulder"
           class="z-10 ml-[10%] md:ml-[30%] -rotate-6 w-[33%] h-[8rem] md:w-[53%] md:h-[12rem] lg:h-[20rem]"
         />
@@ -88,7 +88,7 @@
       <div class="m-20 grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1">
         <div class="relative m-5 md:m-10 lg:mb-20 xl:m-0">
           <img
-            src="shoulder-thumbnail.jpeg"
+            src="/assets/img/shoulder-thumbnail.jpeg"
             alt="Image of shoulder pain"
             class="w-full h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] absolute object-cover duration-100 hover:opacity-20"
           />
@@ -100,7 +100,7 @@
         </div>
         <div class="relative m-5 mb-20 md:m-10 xl:m-0">
           <img
-            src="knee-thumbnail.jpeg"
+            src="/assets/img/knee-thumbnail.jpeg"
             alt="Image of knee pain"
             class="w-full h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] absolute object-cover duration-100 hover:opacity-20"
           />
@@ -112,7 +112,7 @@
         </div>
         <div class="relative m-5 mt-20 mb-20 md:m-10 xl:m-0">
           <img
-            src="ortho-thumbnail.jpeg"
+            src="/assets/img/ortho-thumbnail.jpeg"
             alt="Orthopedic doctor talking to patient"
             class="w-full h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] absolute object-cover duration-100 hover:opacity-20"
           />
@@ -124,7 +124,7 @@
         </div>
         <div class="relative m-5 mt-20 mb-20 md:m-10 xl:m-0">
           <img
-            src="surgery-thumbnail.jpeg"
+            src="/assets/img/surgery-thumbnail.jpeg"
             alt="Surgeon reaching out for tools"
             class="w-full h-[12rem] sm:h-[14rem] md:h-[16rem] lg:h-[18rem] xl:h-[22rem] absolute object-cover duration-100 hover:opacity-20"
           />
@@ -142,25 +142,21 @@
         <div
           v-for="review in reviews"
           :key="review.id"
-          class="bg-dark-gray opacity-70 w-[80%] mt-20 text-white rounded-[2rem] relative mx-auto"
+          class="bg-dark-gray opacity-70 w-[80%] mt-20 text-white rounded-[2rem]"
         >
           <img
-            src="5stars.png"
+            src="/assets/img/5stars.png"
             alt="5 stars"
-            class="w-[50%] top-[10%] left-[8%] absolute"
+            class="w-[21%] ml-16 mt-6 absolute"
           />
-          <div
-            class="flex flex-col justify-center items-center relative ml-[65%] mt-[7%]"
-          >
-            <img
-              :src="review.pfp"
-              alt="User profile picture"
-              class="w-[35%] rounded-[100%]"
-            />
-            <h3 class="text-xl mt-[10%]">
-              {{ review.name }}
-            </h3>
-          </div>
+          <img
+            :src="review.pfp"
+            alt="User profile picture"
+            class="w-[6rem] h-[6rem] ml-[75%] mt-5 rounded-[100%]"
+          />
+          <h3 class="text-xl text-right mr-[13%] mt-[1rem]">
+            {{ review.name }}
+          </h3>
           <p class="text-2xl text-center p-5 mt-5 mb-3">
             {{ review.testimonial }}
           </p>
