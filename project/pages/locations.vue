@@ -67,27 +67,27 @@ const locations = ref([
   {
     id: 1,
     name: "Bronx",
-    image: "/assets/img/location.png",
+    image: "location.png",
   },
   {
     id: 2,
     name: "Queens",
-    image: "/assets/img/location.png",
+    image: "location.png",
   },
   {
     id: 3,
     name: "Brooklyn",
-    image: "/assets/img/location.png",
+    image: "location.png",
   },
   {
     id: 4,
     name: "New Jersey",
-    image: "/assets/img/location.png",
+    image: "location.png",
   },
   {
     id: 5,
     name: "Long Island",
-    image: "/assets/img/location.png",
+    image: "location.png",
   },
 ]);
 </script>
