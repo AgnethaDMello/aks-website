@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow">
+  <div class="bg-yellow md:pt-10">
     <header class="text-black p-4">
       <h1 class="text-4xl text-left ml-[5%] mt-10">Our Team</h1>
     </header>
@@ -43,15 +43,15 @@ import { ref } from "vue";
 const doctors = ref([
   {
     id: 1,
-    name: "Dr. John Adam Smith",
-    image: "doctor1.jpg",
+    name: "Anjani K. Sinha, M.D.",
+    image: "sinha-w-bg.jpg",
     phone: "123-355-2245",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sii dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
   },
   {
     id: 2,
-    name: "Dr. John Adam Smith",
+    name: "Alexandra Carrer, M.D.",
     image: "doctor2.jpg",
     phone: "223-355-2245",
     description:
@@ -59,7 +59,7 @@ const doctors = ref([
   },
   {
     id: 3,
-    name: "Dr. Michelle Phanny",
+    name: "Shubrata Dey, MBBS, MSN, NP-BC",
     image: "doctor1.jpg",
     phone: "323-355-2245",
     description:
@@ -67,7 +67,7 @@ const doctors = ref([
   },
   {
     id: 4,
-    name: "Dr. Johhny Belenky",
+    name: "Robert Yeun, P.A.",
     image: "doctor1.jpg",
     phone: "423-355-2245",
     description:
@@ -75,7 +75,7 @@ const doctors = ref([
   },
   {
     id: 5,
-    name: "Dr. Lydia Smith",
+    name: "Richard Aminov, P.A.-C",
     image: "doctor2.jpg",
     phone: "523-355-2245",
     description:
@@ -83,8 +83,24 @@ const doctors = ref([
   },
   {
     id: 6,
-    name: "Dr. Janna Cena",
+    name: "Sekina Aminov - Practice Administrator",
     image: "doctor1.jpg",
+    phone: "623-355-2245",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitatio consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+  },
+  {
+    id: 7,
+    name: "Kathy Fox - Surgical Coordinator",
+    image: "doctor1.jpg",
+    phone: "623-355-2245",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitatio consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+  },
+  {
+    id: 8,
+    name: "Eric Li - Office Manager",
+    image: "ericli.jpg",
     phone: "623-355-2245",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitatio consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",

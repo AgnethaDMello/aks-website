@@ -1,5 +1,5 @@
 <template>
-  <div class="font-merriweather">
+  <div class="font-merriweather md:pt-10">
     <div>
       <h1 class="absolute text-7xl text-black ml-[8%] mt-[7%]">About Us</h1>
       <img
@@ -15,11 +15,7 @@
             We are with you every step of the journey to pain relief
           </h2>
           <p class="ml-[10%] mt-14 text-2xl">
-            Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam.
-            Egestas fringilla phasellus faucibus scelerisque eleifend donec
-            pretium. Lacus suspendisse faucibus interdum posuere lorem ipsum.
-            Massa enim nec dui nunc mattis enim. Felis donec et odio
-            pellentesque. Aenean et tortor at risus viverra.
+            It’s there when you wake up. You feel it at work. It can make day-to-day living unbearable. Pain. Regardless, if you are living with acute or chronic pain conditions our end-goal remains the same—improving your quality of life through minimally invasive, non-surgical or surgical interventional pain medicine.
           </p>
         </div>
         <img
@@ -37,11 +33,7 @@
             Full of compassion and care for every step with you
           </h2>
           <p class="mr-[8%] float-right text-right mt-14 text-2xl">
-            Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam.
-            Egestas fringilla phasellus faucibus scelerisque eleifend donec
-            pretium. Lacus suspendisse faucibus interdum posuere lorem ipsum.
-            Massa enim nec dui nunc mattis enim. Felis donec et odio
-            pellentesque. Aenean et tortor at risus viverra.
+            At our core, we see ourselves as compassionate healers with a personalized approach to medicine. From diagnosis, to treatment to post-care, we are with you every step of the way. Our practice also embraces the use of highly advanced technology to effectively treat acute and chronic pain.
           </p>
         </div>
         <img
@@ -57,11 +49,7 @@
           We care for you as a person
         </h2>
         <p class="ml-[10%] mt-14 text-2xl">
-          Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam.
-          Egestas fringilla phasellus faucibus scelerisque eleifend donec
-          pretium. Lacus suspendisse faucibus interdum posuere lorem ipsum.
-          Massa enim nec dui nunc mattis enim. Felis donec et odio pellentesque.
-          Aenean et tortor at risus viverra.
+          Transformative medicine—changing patients lives for the better. That’s where our passion comes from. For us, it’s going beyond the medical community’s status quo to do anything we possibly can to help them.
         </p>
       </div>
       <svg

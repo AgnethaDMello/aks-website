@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow overflow-y-hidden">
+  <div class="bg-yellow overflow-y-hidden md:pt-10">
     <header class="relative">
       <img
         src="hospital.jpeg"
@@ -13,24 +13,47 @@
 
     <main class="mx-auto">
       <div class="grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="relative group flex flex-row items-center p-10">
+          <div class="text-center bg-yellow md:text-left mt-4 md:mx-5">
+              <h2 class="text-xl font-bold pb-2">Main Office - Flushing</h2>
+              <p>164-10 Northern Boulevard, Suite 204</p>
+              <p>Flushing, NY 11358</p>
+              <p>Call: 718-886-2011</p>
+              <p>anjanisinhamedicalpc@gmail.com</p>
+              <p class="font-bold mt-5">Languages Spoken: </p>
+              <ul>
+                <li>English</li>
+                <li>Spanish</li>
+                <li>Russian</li>
+                <li>Chinese</li>
+                <li>Korean</li>
+                <li>Hindi</li>
+                <li>Bengali</li>
+              </ul>
+            </div>
+          <img
+            src="location.png"
+            alt="Flushing Office"
+            class="w-9/12 object-cover h-64 p-4"
+          />
+        </div>
         <div
           v-for="(location, index) in locations"
           :key="location.id"
           class="relative group flex flex-row items-center p-10"
           :class="{
-            'bg-yellow': index % 2 === 0,
-            'bg-light-gray': index % 2 !== 0,
+            'bg-light-gray': index % 2 === 0,
+            'bg-yellow': index % 2 !== 0,
           }"
         >
           <div class="text-center md:text-left mt-4 md:mx-5">
             <h2 class="text-xl font-bold pb-2">{{ location.name }}</h2>
-            <p>{{ location.address }}</p>
-            <p>Call: {{ location.phone }}</p>
+            <p>anjanisinhamedicalpc@gmail.com</p>
           </div>
           <img
             :src="location.image"
             :alt="location.name"
-            class="w-9/12 object-cover h-64 p-4"
+            class="w-9/12 object-cover h-64 p-4 ml-[1.5%]"
           />
         </div>
       </div>
@@ -43,38 +66,28 @@ import { ref } from "vue";
 const locations = ref([
   {
     id: 1,
-    name: "New Jersey Newbury",
+    name: "Bronx",
     image: "location.png",
-    phone: "123-355-2245",
-    address: "123 main st Staten Island, 10384",
   },
   {
     id: 2,
-    name: "New Jersey Newbury",
+    name: "Queens",
     image: "location.png",
-    phone: "123-355-2245",
-    address: "123 main st Staten Island, 10384",
   },
   {
     id: 3,
-    name: "New Jersey Newbury",
+    name: "Brooklyn",
     image: "location.png",
-    phone: "123-355-2245",
-    address: "123 main st Staten Island, 10384",
   },
   {
     id: 4,
-    name: "New Jersey Newbury",
+    name: "New Jersey",
     image: "location.png",
-    phone: "123-355-2245",
-    address: "123 main st Staten Island, 10384",
   },
   {
     id: 5,
-    name: "New Jersey Newbury",
+    name: "Long Island",
     image: "location.png",
-    phone: "123-355-2245",
-    address: "123 main st Staten Island, 10384",
   },
 ]);
 </script>

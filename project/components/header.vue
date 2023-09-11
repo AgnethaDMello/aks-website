@@ -1,5 +1,5 @@
 <template>
-  <header class="text-white bg-medium-gray">
+  <header class="text-white bg-medium-gray md:fixed md:w-[100%] md:z-50">
     <div class="flex justify-between items-center bg-medium-gray md:w-auto">
       <!-- Logo and h1 section -->
       <div class="flex items-center space-x-3 p-3 bg-dark-gray">
@@ -21,10 +21,10 @@
         <ul
           class="flex space-x-12 md:space-x-[4.5rem] text-l md:pl-8 lg:space-x-[11.5rem] xl:space-x-[18rem]"
         >
-          <li class="text-sm">
+          <li class="text-md">
             <nuxt-link to="/" class="text-black">Home</nuxt-link>
           </li>
-          <li class="relative group text-sm">
+          <li class="relative group text-md">
             <nuxt-link
               to="/about"
               class="text-black relative"
@@ -49,17 +49,17 @@
               </ul>
             </div>
           </li>
-          <li class="relative group text-sm">
+          <li class="relative group text-md">
             <nuxt-link
               to="/services"
               class="text-black relative"
               @mouseenter="showServicePopup = true"
               @mouseleave="hideServicePopupWithDelay()"
-              >Services</nuxt-link
+              >Treatments</nuxt-link
             >
             <div
               v-if="showServicePopup"
-              class="absolute left-0 mt-2 bg-medium-gray p-4 shadow-lg z-10 transform translate-x-[-30%] opacity-100 group-hover:opacity-100 transition-transform transition-opacity duration-1000"
+              class="absolute left-3 mt-2 bg-medium-gray p-4 shadow-lg z-10 transform translate-x-[-30%] opacity-100 group-hover:opacity-100 transition-transform transition-opacity duration-1000"
               style="transition-property: opacity"
             >
               <ul class="space-y-2 text-center">
@@ -80,8 +80,8 @@
               </ul>
             </div>
           </li>
-          <li class="text-sm">
-            <nuxt-link to="/locations" class="text-black">Contact</nuxt-link>
+          <li class="text-md">
+            <nuxt-link to="/locations" class="text-black">Find a Location</nuxt-link>
           </li>
         </ul>
       </nav>

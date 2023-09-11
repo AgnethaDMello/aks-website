@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow">
+  <div class="bg-yellow md:pt-10">
     <div class="relative">
       <img
         src="throw.jpg"
@@ -13,21 +13,10 @@
     <div class="relative flex items-center justify-between mx-[5%] mt-[3rem]">
       <div class="w-2/3 pr-8">
         <h2 class="text-yellow-txt text-2xl mb-[5%]">
-          What Is The Anterior Cruciate Ligament (ACL)?
+          What Is The Labrum?
         </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida
-          neque convallis a cras. Arcu cursus euismod quis viverra. Egestas
-          egestas fringilla phasellus faucibus scelerisque eleifend. Sed blandit
-          libero volutpat sed cras ornare arcu dui vivamus. Vulputate eu
-          scelerisque felis imperdiet proin fermentum leo vel. Felis bibendum ut
-          tristique et egestas. Ligula ullamcorper malesuada proin libero nunc
-          consequat interdum. Egestas erat imperdiet sed euismod nisi porta
-          lorem mollis aliquam. Egestas fringilla phasellus faucibus scelerisque
-          eleifend donec pretium. Lacus suspendisse faucibus interdum posuere
-          lorem ipsum. Massa enim nec dui nunc mattis enim. Felis donec et odio
-          pellentesque. Aenean et tortor at risus viverra.
+          The socket of the shoulder, or glenoid, is covered with a layer of cartilage called the labrum that cushions and deepens the socket to help stabilize the joint. Traumatic injuries and repetitive overhead shoulder movements may cause a tear in the labrum, leading to pain, limited motion, instability and weakness in the joint. There are three main types of labrum tears: SLAP tear — Here the tear is above the middle of the glenoid. SLAP stands for “superior labrum, anterior to posterior,” which means front to back. This is the common form of labrum tear in tennis, volleyball, and baseball players, and anyone who frequently uses overhead arm movements. Bankart tear — Damage here is in the lower half of the glenoid socket. This is more common in younger people who dislocate their shoulder. Posterior labrum tear — This type of injury occurs in the back of the shoulder joint. These are rare, occurring in only 5 to 10 percent of all shoulder injuries.
         </p>
       </div>
       <div class="w-1/3">
@@ -41,20 +30,9 @@
 
     <hr class="my-12 h-0.5 border-t-0 bg-black opacity-100 dark:opacity-100" />
     <div class="pb-[3rem] mx-[5%]">
-      <h2 class="text-yellow-txt text-2xl mb-[2rem]">How we can help</h2>
+      <h2 class="text-yellow-txt text-2xl mb-[2rem]">How We Can Help</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Gravida neque
-        convallis a cras. Arcu cursus euismod quis viverra. Egestas egestas
-        fringilla phasellus faucibus scelerisque eleifend. Sed blandit libero
-        volutpat sed cras ornare arcu dui vivamus. Vulputate eu scelerisque
-        felis imperdiet proin fermentum leo vel. Felis bibendum ut tristique et
-        egestas. Ligula ullamcorper malesuada proin libero nunc consequat
-        interdum. Egestas erat imperdiet sed euismod nisi porta lorem mollis
-        aliquam. Egestas fringilla phasellus faucibus scelerisque eleifend donec
-        pretium. Lacus suspendisse faucibus interdum posuere lorem ipsum. Massa
-        enim nec dui nunc mattis enim. Felis donec et odio pellentesque. Aenean
-        et tortor at risus viverra.
+        Labral repair surgery trims the damaged portion of the labrum in the shoulder and if necessary, secures it with staples, anchors or sutures. This outpatient procedure is usually performed through arthroscopy, which allows the doctor to view the tear through a small camera and insert the specialized tools through tiny incisions. Patients can benefit from less tissue damage, shorter recovery times and less scarring with arthroscopic techniques. However, larger tears may require an open procedure. Once anesthesia has been administered, the surgeon will make the incisions in the shoulder area. Upon obtaining a visualization of the labrum, the injury can be better evaluated. The torn area will be removed and all necessary repairs are made. If a separation from the tendon has occurred as well, it may require the use of sutures and anchors to achieve fixation by drilling tiny holes in the glenoid bone in which the anchors are then embedded. Sutures are used to connect the labrum to the anchors, maintaining the correct positioning of the labrum and preventing the labrum from detaching again.
       </p>
     </div>
     <div class="max-w-full mx-auto bg-gradient-to-b from-yellow to-white mb-16">
@@ -69,7 +47,7 @@
         <div class="flex justify-between items-center">
           <h2 class="text-lg font-semibold">{{ condition.title }}</h2>
           <button
-            class="text-blue-500 focus:outline-none"
+            class="text-blue-500 text-3xl focus:outline-none"
             @click="toggleCondition(index)"
           >
             {{ condition.show ? "-" : "+" }}
@@ -107,67 +85,67 @@ export default {
     return {
       conditions: [
         {
-          title: "Condition 1",
+          title: "Shoulder Arthroscopy",
           explanation:
             "É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor)",
           treatments: [
-            "Treatment 1 for Condition 1",
-            "Treatment 2 for Condition 1",
+            "Treatment 1 for Shoulder Arthroscopy",
+            "Treatment 2 for Shoulder Arthroscopy",
           ],
           img: `red knee.png`,
           show: false,
         },
         {
-          title: "Condition 1",
+          title: "Shoulder Stabilization",
           explanation:
             "É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor)",
           treatments: [
-            "Treatment 1 for Condition 1",
-            "Treatment 2 for Condition 1",
+            "Treatment 1 for Shoulder Stabilization",
+            "Treatment 2 for Shoulder Stabilization",
           ],
           img: `red knee.png`,
           show: false,
         },
         {
-          title: "Condition 1",
+          title: "Rotator Cuff Repair",
           explanation:
             "É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor)",
           treatments: [
-            "Treatment 1 for Condition 1",
-            "Treatment 2 for Condition 1",
+            "Treatment 1 for Rotator Cuff Repair",
+            "Treatment 2 for Rotator Cuff Repair",
           ],
           img: `red knee.png`,
           show: false,
         },
         {
-          title: "Condition 1",
+          title: "Shoulder Impingement",
           explanation:
             "É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor)",
           treatments: [
-            "Treatment 1 for Condition 1",
-            "Treatment 2 for Condition 1",
+            "Treatment 1 for Shoulder Impingement",
+            "Treatment 2 for Shoulder Impingement",
           ],
           img: `red knee.png`,
           show: false,
         },
         {
-          title: "Condition 1",
+          title: "Arthroscopic Decompression",
           explanation:
             "É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor)",
           treatments: [
-            "Treatment 1 for Condition 1",
-            "Treatment 2 for Condition 1",
+            "Treatment 1 for Arthroscopic Decompression",
+            "Treatment 2 for Arthroscopic Decompression",
           ],
           img: `red knee.png`,
           show: false,
         },
         {
-          title: "Condition 1",
+          title: "SLAP Repair",
           explanation:
             "É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como ição mais ou menos normal de letras, ao contrário do uso de , tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor)",
           treatments: [
-            "Treatment 1 for Condition 1",
-            "Treatment 2 for Condition 1",
+            "Treatment 1 for SLAP Repair",
+            "Treatment 2 for SLAP Repair",
           ],
           img: `red knee.png`,
           show: false,

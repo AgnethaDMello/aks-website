@@ -1,73 +1,68 @@
 <template>
   <div class="font-merriweather">
-    <!-- <div class="relative">
-      <div class="absolute ml-[35%] mt-[18rem]">
-        <svg width="1200">
-          <rect
+    <div class="relative ">
+      <div class="flex items-center justify-center xl:left-[29%] lg:top-[18%]">
+        <svg class="absolute top-9 sm:top-14 md:top-20 lg:left-[25%] lg:top-[18%] xl:left-[29%] w-[17rem] h-[3rem] sm:w-[25rem] sm:h-[3rem] md:w-[40rem] md:h-[6rem] lg:w-[45rem] lg:h-[9rem] xl:h-[11rem] xl:w-[65rem]">
+          <rect class="w-[95%] h-[100%]"
             x="10"
             y="10"
-            width="1050"
-            height="80"
             fill="#404654"
-            fill-opacity=".75"
+            fill-opacity="1"
           />
         </svg>
       </div>
-      <div class="absolute z-20 w-[100%]">
+      <div class="w-screen flex items-center justify-center">
         <h1
-          class="text-8xl float-right text-white w-[70rem] h-[5.5rem] text-center mr-[9rem] mt-[16rem]"
+          class="absolute z-20 text-2xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-8xl text-white text-center top-[15%] xl:right-[15%] lg:right-[18%]"
         >
-          Anjani K. Sinha M.D
+          Anjani K. Sinha
+          <p class="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl mt-[3%]">Medical P.C.</p>
         </h1>
-        <div class="float-right mr-[19rem] mt-[4rem]">
+        </div>
+      <div class="absolute z-20 w-[100%] mt-[4%]">
+        <div class="flex flex-col md:flex-row w-[50%] mt-[22%] ml-[45%] sm:mt-[25%] sm:ml-[35%] justify-around">
           <button
-            class="text-4xl h-[4.5rem] w-[20rem] m-20 bg-yellow-btn/75 outline outline-3 outline-black shadow-black/60 shadow-[-10px_10px_9px]"
+            class="text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl h-[1.5rem] sm:h-[4.5rem] w-[60%] sm:w-[30%] md:w-[40%] bg-yellow-btn/75 outline outline-3 outline-black shadow-black/60 shadow-[-10px_10px_9px] mb-2"
           >
             Learn More
           </button>
           <button
-            class="text-4xl h-[4.5rem] w-[20rem] m-20 mr-0 bg-yellow-btn/75 outline outline-3 outline-black shadow-black/60 shadow-[-10px_10px_9px]"
+            class="text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl h-[1.5rem] md:h-[4.5rem] w-[60%] sm:w-[30%] md:w-[40%] bg-yellow-btn/75 outline outline-3 outline-black shadow-black/60 shadow-[-10px_10px_9px]"
           >
             Find a Location
           </button>
         </div>
         <h2
-          class="text-white text-4xl bg-dark-gray/75 mt-[43rem] ml-[42rem] w-[36%] pt-2 pb-2 text-center"
+          class="text-white text-xs sm:text-base lg:text-lg xl:text-3xl bg-dark-gray/75 w-[60%] sm:w-[45%] md:w-[35%] mt-[3%] sm:mt-[6%] md:mt-[8%] xl:mt-[8%] ml-[38%] p-1 md:pt-2 md:pb-2 text-center"
         >
           Ease your pain and your worries!
         </h2>
       </div>
       <div class="w-full">
         <img
-          src="placeholder-doc-img.png"
+          src="sinha.png"
           alt="Doctor Anjani K. Sinha"
-          class="absolute bottom-0 z-30 h-[55rem]"
+          class="absolute bottom-0 z-30 lg:h-[100%] h-[75%]"
         />
         <img
           src="black_gold_triangle.png"
           alt="Black and Gold Triangle"
-          class="absolute bottom-0 right-0 z-30 h-[55rem]"
+          class="hidden lg:block lg:absolute lg:bottom-0 lg:right-0 lg:z-30 lg:h-[80%]"
         />
         <img
-          src="city-background-2.jpeg"
-          alt="city"
+          src="home-bg.jpg"
+          alt="Knee and Shoulder"
           class="object-cover w-full opacity-[.55] z-10"
         />
       </div>
-    </div> -->
+    </div>
     <div class="h-auto bg-yellow flex flex-col md:flex-row justify-around">
       <div class="md:w-[50%] mt-10 h-auto flex flex-col justify-center items-center">
         <h2 class="text-center font-black text-2xl sm:text-2xl md:text-4xl lg:text-6xl">
           Our Specialties
         </h2>
         <p class="text-center m-10 sm:text-lg md:text-xl lg:text-3xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Our mission is to put you on track to a full and speedy recovery. Our board certified orthopaedic surgeons have advanced training and specialize in arthroscopic surgery of the shoulder and the knee. Advanced Orthopaedics is a unique and comprehensive facility that will provide you with advanced treatment options and outstanding customer service. Our goal is to achieve the most optimal level of functionality for all of our patients by providing timely, efficient, and thorough care. Our dedicated staff understands the patient's needs and will provide you with individualized and prompt attention. Our staff speaks English, Spanish, Chinese, Mandarin, Korean, Hebrew and Russian.For your convenience we have office locations in Queens, Brooklyn, Bronx and Long Island
         </p>
       </div>
       <div class="md:w-[40%] h-full flex flex-col items-center justify-center pb-[8%] pl-[2%]">
@@ -182,30 +177,30 @@ const reviews = ref([
   {
     id: 1,
     pfp: "aks.png",
-    name: "joe mother",
+    name: "John Doe",
     testimonial:
-      "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
+      "“Dr. ___ is compassionate and understanding. His PA, Tim, is top notch. They listen and respond to your questions with confidence and clarity.”",
   },
   {
     id: 2,
     pfp: "aks.png",
-    name: "joe mother",
+    name: "Jane Doe",
     testimonial:
-      "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
+      "“Dr. ___ was able to cure me by performing a laminectomy, and the incision was only 2 inches long! I went home that same afternoon!”",
   },
   {
     id: 3,
     pfp: "aks.png",
-    name: "joe mother",
+    name: "Mike Smith",
     testimonial:
-      "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
+      "“Dr. ___ has been amazing in finding treatments to give me relief and I can walk again without being in extreme discomfort.”",
   },
   {
     id: 4,
     pfp: "aks.png",
-    name: "joe mother",
+    name: "Joe White",
     testimonial:
-      "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
+      "“I recommend Dr. ___ to anyone in pain who needs a top Orthopedic Sports Medicine Specialist. Also, his office staff are first rate, courteous, and helpful.”",
   },
 ]);
 </script>
