@@ -32,7 +32,7 @@
               </ul>
             </div>
           <img
-            src="location.png"
+            src="/assets/img/location.png"
             alt="Flushing Office"
             class="w-9/12 object-cover h-64 p-4"
           />
@@ -67,27 +67,27 @@ const locations = ref([
   {
     id: 1,
     name: "Bronx",
-    image: "location.png",
+    image: "/assets/img/location.png",
   },
   {
     id: 2,
     name: "Queens",
-    image: "location.png",
+    image: "/assets/img/location.png",
   },
   {
     id: 3,
     name: "Brooklyn",
-    image: "location.png",
+    image: "/assets/img/location.png",
   },
   {
     id: 4,
     name: "New Jersey",
-    image: "location.png",
+    image: "/assets/img/location.png",
   },
   {
     id: 5,
     name: "Long Island",
-    image: "location.png",
+    image: "/assets/img/location.png",
   },
 ]);
 </script>

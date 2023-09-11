@@ -2,7 +2,7 @@
   <div class="bg-yellow font-merriweather">
     <div class="relative">
       <img
-        src="/assets/img/city-background-2.jpeg"
+        src="/assets/img/running.jpeg"
         alt="City header image"
         class="h-[30vh] w-[100vw] object-cover"
         style="object-position: center bottom"

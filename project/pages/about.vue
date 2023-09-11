@@ -1,13 +1,12 @@
 <template>
-  <div class="font-merriweather md:pt-10">
+  <div class="font-merriweather pt-20 md:pt-10">
     <div>
-      <h1 class="absolute text-7xl text-black ml-[8%] mt-[7%]">About Us</h1>
+      <h1 class="absolute text-7xl text-black ml-[8%] mt-[6%]">About Us</h1>
       <img
         src="/assets/img/about-us-main.jpeg "
         alt="Virtual Doctor Visual"
         class="h-[30vh] w-[100vw] object-cover"
       />
-      <h1 class="absolute top-1/4 text-black text-5xl ml-[5%] mt-10">About</h1>
     </div>
     <div>
       <div class="bg-yellow h-auto md:flex pt-10">
@@ -15,7 +14,7 @@
           <h2 class="w-[75%] text-3xl lg:text-5xl text-brown">
             We are with you every step of the journey to pain relief
           </h2>
-          <p class="ml-[10%] mt-14 text-2xl">
+          <p class="mt-14 text-2xl">
             It’s there when you wake up. You feel it at work. It can make day-to-day living unbearable. Pain. Regardless, if you are living with acute or chronic pain conditions our end-goal remains the same—improving your quality of life through minimally invasive, non-surgical or surgical interventional pain medicine.
           </p>
         </div>
@@ -38,7 +37,7 @@
           <h2 class="text-3xl lg:text-5xl text-brown text-right">
             Full of compassion and care for every step with you
           </h2>
-          <p class="mr-[8%] float-right text-right mt-14 text-2xl">
+          <p class="float-right text-right mt-14 text-2xl">
             At our core, we see ourselves as compassionate healers with a personalized approach to medicine. From diagnosis, to treatment to post-care, we are with you every step of the way. Our practice also embraces the use of highly advanced technology to effectively treat acute and chronic pain.
           </p>
         </div>
@@ -52,13 +51,13 @@
         <h2 class="text-3xl lg:text-5xl text-brown">
           We care for you as a person
         </h2>
-        <p class="ml-[10%] mt-14 text-2xl">
+        <p class="mt-14 text-2xl">
           Transformative medicine—changing patients lives for the better. That’s where our passion comes from. For us, it’s going beyond the medical community’s status quo to do anything we possibly can to help them.
         </p>
       </div>
       <div class="relative pt-10">
         <svg
-          class="absolute left-[10%] md:left-[15%] md:top-[6%] lg:top-[3%] w-[15%] lg:w-[25%]"
+          class="absolute left-[5%] md:left-[10%] md:top-[6%] lg:top-[3%] w-[15%] lg:w-[25%]"
           version="1.1"
           id="Capa_1"
           xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +92,7 @@
           <slideshow class="m-16 w-full md:w-[20rem] lg:w-[30rem]" />
         </div>
         <svg
-          class="absolute left-[70%] top-[87%] md:left-[65%] md:top-[46%] lg:top-[62%] w-[15%] lg:w-[25%]"
+          class="absolute left-[60%] top-[87%] md:left-[55%] md:top-[46%] lg:top-[62%] w-[15%] lg:w-[25%]"
           version="1.1"
           id="Capa_1"
           xmlns="http://www.w3.org/2000/svg"

@@ -40,17 +40,17 @@
       </div>
       <div class="w-full">
         <img
-          src="sinha.png"
+          src="/assets/img/sinha.png"
           alt="Doctor Anjani K. Sinha"
           class="absolute bottom-0 z-30 lg:h-[100%] h-[75%]"
         />
         <img
-          src="black_gold_triangle.png"
+          src="/assets/img/black_gold_triangle.png"
           alt="Black and Gold Triangle"
           class="hidden lg:block lg:absolute lg:bottom-0 lg:right-0 lg:z-30 lg:h-[80%]"
         />
         <img
-          src="home-bg.jpg"
+          src="/assets/img/home-bg.jpg"
           alt="Knee and Shoulder"
           class="object-cover w-full opacity-[.55] z-10"
         />
