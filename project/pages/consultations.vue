@@ -16,22 +16,16 @@
     >
       <div class="md:w-2/3 md:pr-8 pb-4">
         <h2 class="text-yellow-txt text-2xl mb-[5%]">
-          What Is The Anterior Cruciate Ligament (ACL)?
+          Medical History Questionnaire and Examination
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida
-          neque convallis a cras. Arcu cursus euismod quis viverra. Egestas
-          egestas fringilla phasellus faucibus scelerisque eleifend. Sed blandit
-          libero volutpat sed cras ornare arcu dui vivamus. Vulputate eu
-          scelerisque felis imperdiet proin fermentum leo vel. Felis bibendum ut
-          tristique et egestas. Ligula ullamcorper malesuada proin libero nunc
-          consequat interdum. Egestas erat imperdiet sed euismod nisi porta
-          lorem mollis aliquam. Egestas fringilla phasellus faucibus scelerisque
-          eleifend donec pretium. Lacus suspendisse faucibus interdum posuere
-          lorem ipsum. Massa enim nec dui nunc mattis enim. Felis donec et odio
-          pellentesque. Aenean et tortor at risus viverra.
+        <p class="mb-10">
+          The doctor will likely ask you about your general health, past health conditions, family medical history, and other existing conditions that you may have. They will particularly want to know about conditions such as arthritis, osteoporosis, anemia, diabetes, obesity, and hypertension, because these issues may influence the treatment option that the surgeon provides.
         </p>
+        <p class="mb-10">
+          You’ve probably discussed any and all pain that you are currently experiencing with your primary care physician. You’ll likely discuss it all again in detail with your surgeon.
+        </p>
+        <p class="mb-10">Even if you’re experiencing pains that are separate from the main focus of your pain or the location of the main issue, they could all be connected to the specific orthopedic condition. Be sure to mention the impact your pain has had on your functionality. (“It hurts when I…”)</p>
+        <p class="mb-10">Also, be sure to discuss previous injuries or existing conditions that could be having an effect on this orthopedic condition. Before your consultation, it may be helpful to keep a pain journal where you can record activities and positions that cause pain anywhere in your body. Be sure to bring the journal with you to your consultation and share it with the surgeon.</p>
       </div>
       <div class="md:w-1/3">
         <img
@@ -44,20 +38,9 @@
 
     <hr class="my-12 h-0.5 border-t-0 bg-black opacity-100 dark:opacity-100" />
     <div class="pb-[3rem] mx-[5%]">
-      <h2 class="text-yellow-txt text-2xl mb-[2rem]">How we can help</h2>
+      <h2 class="text-yellow-txt text-2xl mb-[2rem]">Orthopedic Physical Examination</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Gravida neque
-        convallis a cras. Arcu cursus euismod quis viverra. Egestas egestas
-        fringilla phasellus faucibus scelerisque eleifend. Sed blandit libero
-        volutpat sed cras ornare arcu dui vivamus. Vulputate eu scelerisque
-        felis imperdiet proin fermentum leo vel. Felis bibendum ut tristique et
-        egestas. Ligula ullamcorper malesuada proin libero nunc consequat
-        interdum. Egestas erat imperdiet sed euismod nisi porta lorem mollis
-        aliquam. Egestas fringilla phasellus faucibus scelerisque eleifend donec
-        pretium. Lacus suspendisse faucibus interdum posuere lorem ipsum. Massa
-        enim nec dui nunc mattis enim. Felis donec et odio pellentesque. Aenean
-        et tortor at risus viverra.
+        Physical examinations are important for the surgeon to assess your range of motion, swelling, reflexes, and skin condition. Your doctor will be observing your general capacity to move around in certain positions such as walking, sitting, standing, climbing stairs, bending forward and backward, etc. These tests are used to exclude or confirm likely diagnoses.
       </p>
     </div>
   </div>

@@ -2,15 +2,18 @@
   <footer class="bg-dark-gray text-white">
     <div class="flex justify-center">
       <div
-        class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-[10rem] lg:gap-[16rem] xl:gap-[24rem] md:gap-[15rem] md:py-16 py-8 md:flex"
+        class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-[4rem] lg:gap-[10rem] xl:gap-[18rem] md:gap-[15rem] md:py-16 py-8 md:flex"
       >
         <!-- Locations section -->
         <div class="flex flex-col justify-start items-start">
           <h3 class="text-lg font-semibold mb-4">Locations</h3>
           <ul class="text-sm">
-            <li class="pb-1">New York</li>
-            <li class="pb-1">Los Angeles</li>
-            <li>London</li>
+            <li class="pb-1">Flushing</li>
+            <li class="pb-1">Bronx</li>
+            <li class="pb-1">Queens</li>
+            <li class="pb-1">Brooklyn</li>
+            <li class="pb-1">New Jersey</li>
+            <li class="pb-1">Long Island</li>
           </ul>
         </div>
 
@@ -18,9 +21,9 @@
         <div class="flex flex-col justify-start items-start">
           <h3 class="text-lg font-semibold mb-4">Stay in Touch</h3>
           <ul class="text-sm">
-            <li>Address: 123 Main Street</li>
-            <li>Email: contact@example.com</li>
-            <li>Phone: +1 123-456-7890</li>
+            <li>Address: 164-10 Northern Boulevard, Suite 204, Flushing, NY 11358</li>
+            <li>Email: anjanisinhamedicalpc@gmail.com</li>
+            <li>Phone: 718-886-2011</li>
           </ul>
         </div>
 

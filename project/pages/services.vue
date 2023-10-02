@@ -7,7 +7,7 @@
     <h1 class="lg:text-7xl text-3xl text-dark-gray text-center pt-5 mb-10 px-4">
       Our Services For You
     </h1>
-    <div class="md:flex justify-around lg:mt-20 mt-10 mx-20">
+    <div class="md:flex justify-around lg:mt-20 mt-10 lg:mx-20 md:mx-0 sm:mx-20 mx-10">
       <div
         class="bg-light-yellow md:w-[30%] md:h-[32rem] lg:h-[36rem] flex flex-col text-center items-center mb-8"
       >

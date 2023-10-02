@@ -13,24 +13,24 @@
       </div>
       <div class="w-screen flex items-center justify-center">
         <h1
-          class="absolute z-20 text-2xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-8xl text-white text-center top-[15%] xl:right-[15%] lg:right-[18%]"
+          class="absolute z-10 text-2xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-8xl text-white text-center top-[15%] xl:right-[15%] lg:right-[18%]"
         >
           Anjani K. Sinha
           <p class="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl mt-[3%]">Medical P.C.</p>
         </h1>
         </div>
-      <div class="absolute z-20 w-[100%] mt-[4%]">
+      <div class="absolute z-40 w-[100%] mt-[4%]">
         <div class="flex flex-col md:flex-row w-[50%] mt-[22%] ml-[45%] sm:mt-[25%] sm:ml-[35%] justify-around">
-          <button
-            class="text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl h-[1.5rem] sm:h-[4.5rem] w-[60%] sm:w-[30%] md:w-[40%] bg-yellow-btn/75 outline outline-3 outline-black shadow-black/60 shadow-[-10px_10px_9px] mb-2"
-          >
-            Learn More
-          </button>
-          <button
-            class="text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl h-[1.5rem] md:h-[4.5rem] w-[60%] sm:w-[30%] md:w-[40%] bg-yellow-btn/75 outline outline-3 outline-black shadow-black/60 shadow-[-10px_10px_9px]"
-          >
-            Find a Location
-          </button>
+          <NuxtLink
+          to="/about"
+          class="text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl h-[1.5rem] sm:h-[4.5rem] w-[60%] sm:w-[30%] md:w-[40%] bg-yellow-btn/75 outline outline-3 outline-black shadow-black/60 shadow-[-10px_10px_9px] flex justify-center items-center"
+          >Learn More</NuxtLink
+        >
+          <NuxtLink
+          to="/locations"
+          class="text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl h-[1.5rem] sm:h-[4.5rem] w-[60%] sm:w-[30%] md:w-[40%] bg-yellow-btn/75 outline outline-3 outline-black shadow-black/60 shadow-[-10px_10px_9px] flex justify-center items-center"
+          >Find a Location</NuxtLink
+        >
         </div>
         <h2
           class="text-white text-xs sm:text-base lg:text-lg xl:text-3xl bg-dark-gray/75 w-[60%] sm:w-[45%] md:w-[35%] mt-[3%] sm:mt-[6%] md:mt-[8%] xl:mt-[8%] ml-[38%] p-1 md:pt-2 md:pb-2 text-center"
@@ -42,17 +42,17 @@
         <img
           src="/assets/img/sinha.png"
           alt="Doctor Anjani K. Sinha"
-          class="absolute bottom-0 z-30 lg:h-[100%] h-[75%]"
+          class="absolute bottom-0 z-20 lg:h-[100%] h-[75%]"
         />
         <img
           src="/assets/img/black_gold_triangle.png"
           alt="Black and Gold Triangle"
-          class="hidden lg:block lg:absolute lg:bottom-0 lg:right-0 lg:z-30 lg:h-[80%]"
+          class="hidden lg:block lg:absolute lg:bottom-0 lg:right-0 lg:z-20 lg:h-[80%]"
         />
         <img
           src="/assets/img/home-bg.jpg"
           alt="Knee and Shoulder"
-          class="object-cover w-full opacity-[.55] z-10"
+          class="object-cover w-full opacity-[.55]"
         />
       </div>
     </div>
@@ -168,6 +168,11 @@
 
 <script setup>
 import { ref } from "vue";
+
+function goToPage(pageName) {
+    // Use router.push() to navigate to the specified page
+    this.$router.push({ path: pageName });
+  }
 
 const reviews = ref([
   {
