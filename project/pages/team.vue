@@ -12,7 +12,7 @@
           class="relative group md:flex flex-row items-center md:m-6"
         >
           <img
-            :src="doctor.image"
+            :src="`/assets/img/${doctor.image}`"
             :alt="doctor.name"
             class="w-80 h-80 object-cover transition-opacity duration-300 group-hover:opacity-60 mx-auto"
           />
@@ -44,7 +44,7 @@ const doctors = ref([
   {
     id: 1,
     name: "Anjani K. Sinha, M.D.",
-    image: "sinha-w-bg.jpg",
+    image: "sinhabowtie.png",
     phone: "718-886-2011",
     description:
       "Dr. Sinha is passionate about his patients and their experience at Prestige Pain. Compassionate in his clinical approach, Dr. Sinha uses leading-edge, minimally-invasive approaches to address acute and chronic pain effectively.",
