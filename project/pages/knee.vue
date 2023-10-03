@@ -64,7 +64,7 @@
             </div>
             <div class="w-full md:w-1/3 lg:w-1/4 mx-auto 2xl:w-1/5">
               <img
-                :src="`/assets/img/${condition.img}`"
+                :src="condition.img"
                 :alt="condition.title"
                 class="w-[90%] mx-auto h-[100%] object-cover"
               />

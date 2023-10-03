@@ -12,7 +12,7 @@
           class="relative group md:flex flex-row items-center md:m-6"
         >
           <img
-            :src="`/assets/img/${doctor.image}`"
+            :src="doctor.image"
             :alt="doctor.name"
             class="w-80 h-80 object-cover transition-opacity duration-300 group-hover:opacity-60 mx-auto"
           />
